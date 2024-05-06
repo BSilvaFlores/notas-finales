@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <title>Notas Finales</title>
+</head>
+<body>
+
+    <div class="container py-5">
+        <h1 class="py-2">Notas Finales</h1>
+
+        <dl class="row">
+            <!-- es como un mini titulo -->
+            <dt class="col-sm-3">Nombre:</dt>
+
+            <!-- es como una mini descripcion -->
+            <dd class="col-sm-9">Juan Perez</dd>
+            
+            <dt class="col-sm-3">Carrera</dt>
+            <dd class="col-sm-9">Desarrollo web</dd>
+        </dl>
+
+<!-- TABLA DE BOOTSTRAP -->
+        <table class="table">
+            <thead class="table-dark">
+              <tr>
+                <th scope="col">Ramo</th>
+                <th scope="col">Nota 1</th>
+                <th scope="col">Nota 2</th>
+                <th scope="col">Nota 3</th>
+                <th scope="col">Promedio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">HTML</th>
+                <td scope="row" id="html1"></td>
+                <td scope="row" id="html2"></td>
+                <td scope="row" id="html3"></td>
+                <td scope="row" id="htmlPromedio"></td>
+              </tr>
+              <tr>
+                <th scope="row">CSS</th>
+                <td scope="row" id="css1"></td>
+                <td scope="row" id="css2"></td>
+                <td scope="row" id="css3"></td>
+                <td scope="row" id="cssPromedio"></td>
+              </tr>
+              <tr>
+                <th scope="row">JAVASCRIPT</th>
+                <td scope="row" id="js1"></td>
+                <td scope="row" id="js2"></td>
+                <td scope="row" id="js3"></td>
+                <td scope="row" id="jsPromedio"></td>
+              </tr>
+
+              <tr>
+                <th scope="row">Promedio General</th>
+                <td scope="row" id="promedioGeneral"></td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
